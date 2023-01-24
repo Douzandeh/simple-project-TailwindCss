@@ -12,12 +12,28 @@
   display: block
 }
 
+.h-8 {
+  height: 2rem
+}
+
 .w-1\/5 {
   width: 20%
 }
 
+.w-3\/5 {
+  width: 60%
+}
+
+.w-2\/5 {
+  width: 40%
+}
+
 .rounded-full {
   border-radius: 9999px
+}
+
+.rounded-lg {
+  border-radius: 0.5rem
 }
 
 .bg-black {
@@ -28,6 +44,11 @@
 .bg-rose-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 63 94 / var(--tw-bg-opacity))
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity))
 }
 
 .p-4 {
@@ -72,6 +93,10 @@
 
 .ease-linear {
   transition-timing-function: linear
+}
+
+.focus\:w-4\/5:focus {
+  width: 80%
 }
 
 .active\:bg-blue-900:active {
